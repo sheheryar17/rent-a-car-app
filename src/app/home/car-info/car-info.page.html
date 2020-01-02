@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Details</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home">
+
+      </ion-back-button>
+
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img [src]="carInfo.imageUrl"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+                <h3>
+                  Name: 
+                </h3>
+                <p margin>
+                    {{carInfo.make + ' ' + carInfo.model}}
+                </p>
+              
+          <ion-item>
+            <ion-label>
+              Year
+            </ion-label>
+            {{carInfo.year}}
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              Color
+            </ion-label>
+            {{carInfo.color}}
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              Milage:
+            </ion-label>
+            {{carInfo.milage}}
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              Rent/day:
+            </ion-label>
+            {{'Rs.' + ' ' + carInfo.price }}
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="ion-padding">
+    <ion-button size="large"  color="primary" expand="block">Book This Car
+    </ion-button>
+  </div>
+</ion-content>

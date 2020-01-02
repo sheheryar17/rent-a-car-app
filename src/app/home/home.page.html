@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar no-border-bottom>
+      <ion-title>Cars List</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let car of cars" [routerLink]="['/', 'home', car._id]" >
+      <ion-thumbnail slot="start">
+        <ion-img *ngIf="car.imageUrl && car.imageUrl!='null'" [src]="car.imageUrl">
+        </ion-img>
+        <ion-img *ngIf="!car.imageUrl ||  car.imageUrl == 'null' " [src]="'assets/icon/Webalys-Kameleon.pics-Old-Car-2.ico'">
+        </ion-img>
+      </ion-thumbnail>
+      <ion-label>{{car.make + " " + car.model  }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>

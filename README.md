@@ -15,12 +15,12 @@ and shows their details of the desired car you want to pick for rent</p>
 <br>
 <br>
 <h1>FrontEnd Screenshots</h1>
-<img src="about.png" width="800">
-<img src="login.png" width="800">
-<img src="register.png" width="800">
-<img src="carlist.png" width="800">
-<img src="cardetails.png" width="800">
-<img src="sidebar.png" width="800">
+<img src="about.png" width="220" height="240">
+<img src="login.png" width="220" height="240">
+<img src="register.png" width="220" height="240">
+<img src="carlist.png" width="220" height="240">
+<img src="cardetails.png" width="220" height="240">
+<img src="sidebar.png" width="220" height="240">
 
 <h1>Running Project</h1>
 -> git clone or download repository<br>

@@ -15,11 +15,17 @@ and shows their details of the desired car you want to pick for rent</p>
 <br>
 <br>
 <h1>FrontEnd Screenshots</h1>
+<h2>About Page</h2>
 <img src="about.png" width="800" >
+<h2>Login Page</h2>
 <img src="login.png" width="800">
+<h2>Register Page</h2>
 <img src="register.png" width="800">
+<h2>Cars List Page</h2>
 <img src="carlist.png" width="800">
+<h2>Car details Page</h2>
 <img src="cardetails.png" width="800">
+<h2>Sidemenu Page</h2>
 <img src="sidebar.png" width="800">
 
 <h1>Running Project</h1>
